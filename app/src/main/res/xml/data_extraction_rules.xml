@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Sample data extraction rules file; uncomment and customize as necessary.
+   See https://developer.android.com/about/versions/12/backup-restore#xml-changes
+   for details.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        rules_version = '2';
+        service cloud.firestore {
+        match /databases/{database}/documents {
+        match /users/{userId} {
+        allow read: if request.auth != null &amp;&amp; request.auth.uid == userId; // Allow authenticated user to read their own data
+        allow write: if false; // Deny all write operations (change to appropriate conditions)
+        }
+        // Add more rules for other collections and documents as needed
+        }
+        }
+
+    </cloud-backup>
+
+</data-extraction-rules>

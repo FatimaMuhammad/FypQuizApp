@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "566622750046",
+    "project_id": "quickwinn-3c50f",
+    "storage_bucket": "quickwinn-3c50f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566622750046:android:8f2065430aefc6964f3bcf",
+        "android_client_info": {
+          "package_name": "com.example.fypfsy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566622750046-5laceu8tcnrr1boa0codfsvjalicohnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzdT3u2HtE6PjYnvISIWA-oCnP6CGVSAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566622750046-5laceu8tcnrr1boa0codfsvjalicohnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
